@@ -159,6 +159,3 @@ color: var(--accent-color);
 .footer-tel:focus, .footer-mail:focus {
 color: var(--accent-color);
 }
-.footer {
-  background-color: #212121;
-}
