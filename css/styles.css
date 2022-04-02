@@ -21,11 +21,12 @@ font-weight: 700;
 font-size: 26px;
 line-height:1.19;
 letter-spacing: 0.03em;
-color: #000000;
+color: var(--accent-color);
 }
-.logo-style{
-  color: var(--accent-color);
+.logo-style {
+  color: #000000;
 }
+
 .header-link{
 font-weight: 500;
 font-size: 14px;
@@ -55,6 +56,7 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 color: #ffffff;
+text-transform: uppercase;
 }
 .hero-btn{
   font-family: inherit;
@@ -129,19 +131,24 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--accent-color);
 }
 .footer-logo-style{
-  color: var(--accent-color);
+  color: #ffffff;
 }
+
 .footer-text{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
 .footer-mail, .footer-tel {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -151,4 +158,7 @@ color: #FFFFFF;
 .footer-tel:hover,.footer-mail:hover,
 .footer-tel:focus, .footer-mail:focus {
 color: var(--accent-color);
+}
+.footer {
+  background-color: #212121;
 }
